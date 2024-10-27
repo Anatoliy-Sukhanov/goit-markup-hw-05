@@ -439,7 +439,7 @@
           </ul>
         </div>
         <div class="container">
-          <p class="footer-media-text">Subscribe</p>
+          <p>Subscribe</p>
           <form class="footer-form">
             <label class="footer-label">
               <input
@@ -514,6 +514,39 @@
                 <use href="./images/icons.svg#icon-person"></use>
               </svg>
             </div>
+          </div>
+          <!-- Comment -->
+          <div class="comment">
+            <label class="label-name" for="user-comment">Comment</label>
+            <textarea
+              id="user-comment"
+              name="user-comment"
+              placeholder="Text input"
+              class="text-comment"
+            ></textarea>
+          </div>
+          <!-- checkbox -->
+          <div class="checkbox-container">
+            <input
+              class="checkbox-input visually-hidden"
+              type="checkbox"
+              id="user-privacy"
+              value="true"
+              name="user-privacy"
+            />
+            <label for="user-privacy" class="checkbox-label"
+              ><span class="checkbox-span"
+                ><svg width="10" height="8">
+                  <use
+                    href="./images/icons.svg#icon-checkbox"
+                  ></use></svg></span
+              >I accept the terms and conditions of the<a class="link-privacy"
+                >Privacy Policy</a
+              ></label
+            >
+          </div>
+          <div class="send-btn-container">
+            <button type="submit" class="send-btn">Send</button>
           </div>
         </form>
       </div>

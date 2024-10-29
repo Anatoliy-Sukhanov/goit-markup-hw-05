@@ -638,7 +638,7 @@ footer {
   fill: transparent;
   margin-right: 8px;
 }
-.visually-hidden:checked + .checkbox-span > .checkbox-label {
+.checkbox-input:checked + .checkbox-label > .checkbox-span {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
@@ -668,9 +668,3 @@ footer {
   padding: 16px 32px;
   margin: 24px auto 0 auto;
 }
-/* 
-.send-btn-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */

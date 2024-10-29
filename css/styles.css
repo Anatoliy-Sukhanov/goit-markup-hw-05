@@ -494,6 +494,7 @@ footer {
 .modal-overlay.is-open {
   opacity: 1;
   visibility: visible;
+  pointer-events: auto;
 }
 .modal {
   padding: 72px 24px 24px 24px;
@@ -583,7 +584,7 @@ footer {
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.input-name:hover .user-name-icon {
+.input-name:hover + .user-name-icon {
   fill: #4d5ae5;
 }
 
@@ -634,6 +635,7 @@ footer {
   align-items: center;
   justify-content: center;
   fill: transparent;
+  margin-right: 8px;
 }
 .checkbox-input:checked + .checkbox-span {
   background-color: #404bbf;
@@ -643,6 +645,8 @@ footer {
 
 .link-privacy {
   color: #4d5ae5;
+  text-decoration: underline;
+  padding-left: 6px;
 }
 .send-btn {
   display: block;
